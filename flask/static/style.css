@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Changa');
+
+body {
+    background:url("17544.jpg") no-repeat center center fixed;
+       -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    border: 5px ;
+
+}
+
+.form-d{
+    background-color: #ececec;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    text-align: left;
+    padding-left: 50px;
+    padding-right: 50px;
+
+}
+
+form{display: inline-block;
+margin-left: auto;
+margin-right: auto;}
+
+.header-design{
+    font-family: Changa, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 4px;
+    word-spacing: 5px;
+    color: #444444;
+
+text-shadow: 1px  1px #CCCCCC,  1px 1px #EEEEEE, 2px 1px 1px #CCCCCC, 1px 2px 1px #EEEEEE, 3px 2px 1px #CCCCCC, 2px 3px 1px #EEEEEE, 4px 3px 1px #CCCCCC, 3px 4px 1px #EEEEEE, 5px 4px 1px #CCCCCC, 4px 5px 1px #EEEEEE, 6px 5px 1px #CCCCCC, 5px 6px 1px #EEEEEE, 7px 6px 1px #CCCCCC;
+}
+
+
+label,p{
+    font-family: Changa, sans-serif;
+    font-size: 12px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    color:#565656;
+
+}
+
+input[type=text], textarea {
+
+  width: 50%;
+
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+    font-size: 15px !important;
+}
+
+.result{
+
+  width: 50%;
+  border-radius: 4px;
+  resize: vertical;
+    font-size: 15px !important;
+
+}
+
+

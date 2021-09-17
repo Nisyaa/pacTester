@@ -1,18 +1,22 @@
 version: "3.9"
 
 services:
-
   flask:
     build: ./flask
-    container_name: flask
+    container_name: flaskdeneme
     restart: always
     expose:
       - 8080
   nginx:
     build: ./nginx
-    container_name: nginx
+    container_name: nginxdeneme
     restart: always
     ports:
       - "80:80"
-
-
+  service_doc:
+    container_name: service_doc
+    build: sphinx/doc
+    volumes:
+      - ./doc:/etc/Sphinx/source
+    ports:
+      - 8100:80

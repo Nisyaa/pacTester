@@ -4,6 +4,7 @@
    contain the root `toctree` directive.
 
 Welcome to Deneme sphinx's documentation! 
+güncelleme yazisi deneme
 =========================================
 
 .. toctree::
